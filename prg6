@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int n,i,j,z,b;
+   printf("Enter No.of ROWS:");
+   scanf("%d",&n);
+   
+   printf("No.of Integers To print:");
+   scanf("%d",&b);
+   for(i=1;i<=n;i++)
+   {
+       for(j=0;j<=1;j++)
+       {
+           for(z=1;z<=b;z++)
+           {
+       printf("%d ",z);
+       
+           }
+           break;
+       }
+       
+       printf("\n");
+   }
+    return 0;
+}
